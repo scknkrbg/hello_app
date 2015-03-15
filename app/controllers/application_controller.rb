@@ -10,6 +10,7 @@ class ApplicationController < ActionController::Base
   
   def goodbye
     render text:"Goodbye, world! It was a pleasure."
+  end
 end
 
 
